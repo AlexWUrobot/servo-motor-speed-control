@@ -1,8 +1,8 @@
-let angle = 60
-let max_angle = 160
-let min_angle = 20
-servos.P0.setAngle(angle)
 namespace SetServoSpeed{
+    let angle = 60
+    let max_angle = 160
+    let min_angle = 20
+    servos.P0.setAngle(angle)
     /**
      * Address motor rotation direction and speed by acceleration
      */
